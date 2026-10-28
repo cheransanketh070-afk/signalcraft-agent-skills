@@ -1,0 +1,13 @@
+{
+  "case_id": "example-001",
+  "input": "A concise representative user request",
+  "context": "Optional fixture, document, or tool response",
+  "expected_behavior": ["Observable requirement 1", "Observable requirement 2"],
+  "must_not_do": ["Unsafe or unsupported behavior"],
+  "checks": [
+    {"id": "check-1", "type": "binary", "description": "A deterministic condition"},
+    {"id": "check-2", "type": "human-rubric", "description": "A nuanced quality criterion"}
+  ],
+  "severity": "medium",
+  "notes": "Keep examples representative, privacy-safe, and versioned."
+}
